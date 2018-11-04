@@ -1,6 +1,6 @@
 
 
-var foodArray = ["burger", "pho", "kimchi", "bbq", "french onion soup"];
+var foodArray = ["pizza", "pho", "ramen", "pasta", "salad"];
 
 
 
@@ -24,7 +24,7 @@ var foodArray = ["burger", "pho", "kimchi", "bbq", "french onion soup"];
                     var dataRating = results[i].rating;
                     
                     // Creating div that'll contain all gif and related data
-                    var gifDiv = $("<div>");
+                    var gifDiv = $("<div class='shadow-lg p-3 mb-4 bg-white rounded'>");
                     // Creating and storing the image tag
                     var foodGif = $("<img>");
                     // Setting attribute to foodGif
