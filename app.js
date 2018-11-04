@@ -1,4 +1,4 @@
-var foodArray = ["pizza", "pho", "ramen", "pasta", "sandwich", "meatball", "pancake", "sushi"];
+var foodArray = ["pizza", "pho", "hot dog", "pasta", "sandwich", "ramen", "pancake", "sushi"];
 
     function generateGif() {
 
@@ -22,7 +22,7 @@ var foodArray = ["pizza", "pho", "ramen", "pasta", "sandwich", "meatball", "panc
                     // Master div that'll contain all gif and yelp data
                     var masterDiv = $("<div class='row border border-danger p-3 mb-4 bg-white rounded'>");
                     // Creating a sub div that'll contain all gif related data
-                    var gifDiv = $("<div class='col-sm-7'>");
+                    var gifDiv = $("<div class='col-md-7'>");
                     // Creating and storing the image tag
                     var foodGif = $("<img>");
                     // Setting attribute to foodGif
@@ -35,9 +35,9 @@ var foodArray = ["pizza", "pho", "ramen", "pasta", "sandwich", "meatball", "panc
                     var pTitle = $("<p>").text("Title: " + dataTitle);
                     var pRating = $("<p>").text("Rating: " + dataRating);
                     // just for fun let's yelp it
-                    var yelpDiv = $("<div class='col-sm-5'>");
+                    var yelpDiv = $("<div class='col-md-5'>");
                     var yelpUrl = "https://www.yelp.com/search?find_desc=" + food + "&find_loc=New%20York%2C%20NY&ns=1&sortby=rating";
-                    var pYelp1 = $("<p>").text("Search for the best " + food + " restaurant in New York City");
+                    var pYelp1 = $("<p>").text("Search for the best " + food + " restaurants in New York City");
                     var pYelp2 = $("<a>");
                     pYelp2.addClass("btn btn-danger m-2 mb-5");
                     pYelp2.text("Yelp!");
