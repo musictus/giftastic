@@ -22,7 +22,7 @@ var foodArray = ["pizza", "pho", "hot dog", "pasta", "sandwich", "ramen", "panca
                     // Master div that'll contain all gif and yelp data
                     var masterDiv = $("<div class='row border border-danger p-3 mb-4 bg-white rounded'>");
                     // Creating a sub div that'll contain all gif related data
-                    var gifDiv = $("<div class='col-md-7'>");
+                    var gifDiv = $("<div class='col-md-7 mb-3'>");
                     // Creating and storing the image tag
                     var foodGif = $("<img>");
                     // Setting attribute to foodGif
