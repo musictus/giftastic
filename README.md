@@ -1,4 +1,4 @@
 # giftastic
 
 `Exercise App for Columbia Engineering's Coding Bootcamp`  
-==> **Javascript + Ajax**
+==> _**Javascript**_ + _**Ajax**_
